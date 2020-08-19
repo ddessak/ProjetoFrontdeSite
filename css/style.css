@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+
+/* Menu */
+
+.menu{
+    background-color: #fcba03;
+    min-width: 1200px;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    font-size: 30px;
+}
+
+.menu p{
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 250px;
+    display: inline-block;
+}
+.dados{ 
+    float: right;
+    display: inline-block;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    margin-right: 250px;
+}
+.dados a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+/*Menu*/
+
+/*img*/
+.img{
+    background-image: url(../Imagens/ditando.jpg);
+    min-width: 1200px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+/*img*/
+
+/*Fundo*/
+
+.fundo{
+    background-color: black;
+    min-width: 1200px;
+    width: 100%;
+    height: 150px;
+}
+.fundo p{
+    padding: 80px;
+    color: #f5a21d;
+    text-align: center;
+}
+
+/*Fundo*/
+
+/*section*/
+
+.section img{
+    width: 30.33%;
+    font-weight: normal;
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-top: -50px;
+    margin-right: 20px;
+    margin-left: 33%;
+    
+}
+.conteiner1 img , .conteiner3 img, .conteiner2 img{  
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    
+}
+.section-1,.section-2,.section-3{
+    width: 25.33%;
+    font-weight: normal;
+    display: inline-block;
+    background-color: #171716;
+    margin-top: 250px;
+    height: 300px;
+    margin-left: 100px;
+    padding: 0;
+    border-radius: 10%;
+    
+
+}
+.cont-um h1,.cont-dois h1,.cont-tres h1{
+    color: #ed9200;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    margin:0;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+.cont-um p,.cont-dois p,.cont-tres p{
+    color: #f5a21d;
+    text-align: justify;
+    width: calc(100% - 10px);
+    font-size: 20px;
+    padding: 5px;
+}
+span a{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+
+.arrow{
+    position: relative;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../Imagens/arrow.png");
+    background-size: 100% 100%;
+    left: 50%;
+    margin-left: -20px;
+}
+/*section*/
+
+/*Not*/
+.not{
+    width: 100%;
+    height: 300px;
+}
+.not-1 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10%;
+    float: right;
+    margin-right: 250px;
+    margin-top:-15px;
+}
+.not{
+    display: inline-block;
+
+}
+.not-2 img{
+    width: 80px;
+    height: 100px;
+    margin-left: 20%;
+}
+.not-2 h1{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -100px
+
+}
+.not-2 p{
+    font-size: 20px;
+    color: #94918b;
+    width: 400px;
+    text-align: justify;
+    margin-left: 25%;
+}
+.not ul{
+    padding: 20px;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.arrow1{
+    position: relative;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../Imagens/arrow.png");
+    background-size: 100% 100%;
+    left: 50%;
+    margin-left: -20px;
+}
+/*Not*/
+
+/*escolha*/
+.escolha{
+    background-color: #c7c1b7;
+    width: 100%;
+    height: 250px;
+    padding: 40px;
+    display: inline-block;
+}
+.escolha h1{
+    margin-left: 20%;
+    
+}
+
+/*escolha*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    margin-top:-10px;
+
+}
+.text1 p{
+    color: white;
+    font-size: 20px;
+    margin-left: 250px;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.text2 p{
+    color: white;
+    font-size: 20px;
+    margin-left: 55.5%;
+    margin-top: -95px;
+}
+.text2 span{
+    color: #f5a21d;
+    font-size: 20px;
+    margin-left: 55%;
+    margin-top: -95px;
+}
+.icones ul{
+   float: right;
+   padding: 10px ;
+}
+.icones ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+.icones ul li img{
+    background-color: #262522;
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: -30px;
+    
+    
+}
+/*footer*/
